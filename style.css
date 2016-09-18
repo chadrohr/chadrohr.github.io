@@ -1,6 +1,9 @@
 .image-responsive{
     width: 100%;
 }
+.bg-image{
+    margin: 0 -15px;
+}
 .navbar{
     background: transparent
 }
