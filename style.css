@@ -1,18 +1,3 @@
-*{
-    box-sizing: border-box;
-    outline: 1px solid red;
-}
-.image-responsive{
-    width: 100%;
-}
-.parallax{
-    background-image: url("https://static.wixstatic.com/media/e8062f_ccd7cb25c2264fdc9328ea2c1fa62cf9~mv2.jpg/v1/fill/w_640,h_800,al_c,q_85,usm_0.66_1.00_0.01/e8062f_ccd7cb25c2264fdc9328ea2c1fa62cf9~mv2.jpg");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 0.65;
