@@ -1,39 +1,40 @@
 *{
-    outline: 1px solid red;
+    box-sizing: border-box;
 }
 .image-responsive{
     width: 100%;
 }
 .bg-image{
-    background-image: url(https://static.wixstatic.com/media/e8062f_ccd7cb25c2264fdc9328ea2c1fa62cf9~mv2.jpg/v1/fill/w_640,h_800,al_c,q_85,usm_0.66_1.00_0.01/e8062f_ccd7cb25c2264fdc9328ea2c1fa62cf9~mv2.jpg)
+    background-image: url(https://static.wixstatic.com/media/e8062f_ccd7cb25c2264fdc9328ea2c1fa62cf9~mv2.jpg/v1/fill/w_640,h_800,al_c,q_85,usm_0.66_1.00_0.01/e8062f_ccd7cb25c2264fdc9328ea2c1fa62cf9~mv2.jpg);
     margin: 0 -15px;
 }
 .navbar{
-    background: transparent
-}
-.btn{
-    display: inline-block;
-    margin: 0;
-    font-weight: normal;
-    text-align: center;
-    vertical-align: middle;
-    background-image: none;
-    border: 1px solid transparent;
-    white-space: nowrap;
-    padding: 6px 12 px;
-    font-size: 14px;
-    border-radius: 0px;
-}
-.header-search-button{
-    float: left;
-    cursor: pointer;
-    transition: all .5s;
-}
-.jumbotron{
     background: transparent;
-    color: white;
-    background-attachment: fixed;
-    min-height: 500px;
-    margin-top:0px;
-    margin-bottom: 8px;
+    font-family: Helvetica;
+}
+.wrapper{
+    transition:all 0.5s;
+    left: 0;
+    background-color: white;
+}
+.body{
+    font-family: "helvetica Neue", Helvetica, arial, sans-serif;
+    line-height: 1.5;
+    color: #333
+}
+.section-header {
+    padding: 0;
+}
+.section{
+    position: relative;
+    background-color: #fff;  
+}
+.section .parallax{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: block;
+}
+pattern-image{
+    background-size: 100%;
 }
