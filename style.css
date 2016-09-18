@@ -1,3 +1,6 @@
 .image-responsive{
     width: 100%;
 }
+.navbar-header{
+    background: transparent
+}
